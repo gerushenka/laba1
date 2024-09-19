@@ -101,6 +101,22 @@ public class Complex {
     }
 
     /**
+     * Get the real part of the complex number.
+     * @return the real part
+     */
+    public double getRe() {
+        return re;
+    }
+
+    /**
+     * Get the imaginary part of the complex number.
+     * @return the imaginary part
+     */
+    public double getIm() {
+        return im;
+    }
+
+    /**
      * Square of Complex object's length, we're using square of length to 
      * eliminate the computation of square root
      * @return square of length
